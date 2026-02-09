@@ -10,7 +10,7 @@ createRoot(document.getElementById('root')).render(
   // <StrictMode>
   // </StrictMode>,
   <ProductProvider>
-    <BrowserRouter>
+    <BrowserRouter basename="/KDT7-Personal">
       <ScrollToTop />
         <App />
     </BrowserRouter>
